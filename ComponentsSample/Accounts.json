@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "accountType": "Current Accounts",
+            "title": "Current Account",
+            "accountNumber": "NL81TRIO0253844320",
+            "amount": -1500
+        },
+        {
+            "accountType": "Current Accounts",
+            "title": "Joint Account",
+            "accountNumber": "NL81TRIO0269844560",
+            "amount": 1000
+        },
+        {
+            "accountType": "Savings",
+            "title": "Savings Account",
+            "accountNumber": "NL81TRIO0212471066",
+            "amount": 0
+        },
+        {
+            "accountType": "Term Deposits",
+            "title": "My Term Deposit",
+            "accountNumber": "NL81TRIO0212471066",
+            "amount": 13210.11
+        },
+        {
+            "accountType": "Loans",
+            "title": "Our home loan",
+            "accountNumber": "NL81TRIO0212471066",
+            "amount": 150000
+        }
+    ]
+}

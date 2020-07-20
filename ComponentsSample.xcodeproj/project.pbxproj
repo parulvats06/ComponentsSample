@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505A036F24C5BC9900CA5795 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505A036E24C5BC9900CA5795 /* RoundedView.swift */; };
 		507CDAC224C39B6400544B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAC124C39B6400544B53 /* AppDelegate.swift */; };
 		507CDAC424C39B6400544B53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAC324C39B6400544B53 /* SceneDelegate.swift */; };
-		507CDAC624C39B6400544B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAC524C39B6400544B53 /* ViewController.swift */; };
-		507CDAC924C39B6400544B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507CDAC724C39B6400544B53 /* Main.storyboard */; };
 		507CDACB24C39B6B00544B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507CDACA24C39B6B00544B53 /* Assets.xcassets */; };
 		507CDACE24C39B6B00544B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507CDACC24C39B6B00544B53 /* LaunchScreen.storyboard */; };
 		507CDAD924C39B6B00544B53 /* ComponentsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAD824C39B6B00544B53 /* ComponentsSampleTests.swift */; };
 		507CDAE424C39B6B00544B53 /* ComponentsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAE324C39B6B00544B53 /* ComponentsSampleUITests.swift */; };
+		507CDAFB24C39D8700544B53 /* AccountTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAFA24C39D8700544B53 /* AccountTitleView.swift */; };
+		507CDAFD24C39D9B00544B53 /* AccountTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507CDAFC24C39D9B00544B53 /* AccountTitleView.xib */; };
+		507CDB0124C39DD100544B53 /* AmountTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB0024C39DD100544B53 /* AmountTextView.swift */; };
+		507CDB0424C39DFE00544B53 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB0324C39DFE00544B53 /* UIView+Nib.swift */; };
+		507CDB0824C39F6200544B53 /* LandingTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB0724C39F6200544B53 /* LandingTabBarViewController.swift */; };
+		507CDB0B24C39FAB00544B53 /* AccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507CDB0924C39FAB00544B53 /* AccountsViewController.xib */; };
+		507CDB0C24C39FAB00544B53 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB0A24C39FAB00544B53 /* AccountsViewController.swift */; };
+		507CDB1124C3A20400544B53 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB0F24C3A20400544B53 /* MoreViewController.swift */; };
+		507CDB1224C3A20400544B53 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507CDB1024C3A20400544B53 /* MoreViewController.xib */; };
+		507CDB1924C3A58100544B53 /* AccountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB1724C3A58100544B53 /* AccountsTableViewCell.swift */; };
+		507CDB1A24C3A58100544B53 /* AccountsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507CDB1824C3A58100544B53 /* AccountsTableViewCell.xib */; };
+		507CDB1D24C3A64400544B53 /* AccountsTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB1C24C3A64400544B53 /* AccountsTableHeaderView.swift */; };
+		507CDB1F24C3A65B00544B53 /* AccountsTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507CDB1E24C3A65B00544B53 /* AccountsTableHeaderView.xib */; };
+		507CDB2D24C3B48900544B53 /* Accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = 507CDB2C24C3B48900544B53 /* Accounts.json */; };
+		507CDB3824C3B8F400544B53 /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB3724C3B8F400544B53 /* AccountsViewModel.swift */; };
+		507CDB3A24C3B94F00544B53 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB3924C3B94F00544B53 /* Accounts.swift */; };
+		507CDB3C24C3BC3700544B53 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB3B24C3BC3700544B53 /* UITableView+Additions.swift */; };
+		507CDB3E24C4E21200544B53 /* String+Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB3D24C4E21100544B53 /* String+Styling.swift */; };
+		507CDB4124C4F74C00544B53 /* CurrencyConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB4024C4F74C00544B53 /* CurrencyConfigurator.swift */; };
+		507CDB4324C4FFC000544B53 /* Double+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDB4224C4FFC000544B53 /* Double+Formatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		505A036E24C5BC9900CA5795 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		505A039424C6139B00CA5795 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		507CDABE24C39B6300544B53 /* ComponentsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507CDAC124C39B6400544B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		507CDAC324C39B6400544B53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		507CDAC524C39B6400544B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		507CDAC824C39B6400544B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		507CDACA24C39B6B00544B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		507CDACD24C39B6B00544B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		507CDACF24C39B6B00544B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +68,26 @@
 		507CDADF24C39B6B00544B53 /* ComponentsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComponentsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		507CDAE324C39B6B00544B53 /* ComponentsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsSampleUITests.swift; sourceTree = "<group>"; };
 		507CDAE524C39B6B00544B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507CDAFA24C39D8700544B53 /* AccountTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTitleView.swift; sourceTree = "<group>"; };
+		507CDAFC24C39D9B00544B53 /* AccountTitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountTitleView.xib; sourceTree = "<group>"; };
+		507CDB0024C39DD100544B53 /* AmountTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountTextView.swift; sourceTree = "<group>"; };
+		507CDB0324C39DFE00544B53 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		507CDB0724C39F6200544B53 /* LandingTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LandingTabBarViewController.swift; path = LandingTabBarController/LandingTabBarViewController.swift; sourceTree = "<group>"; };
+		507CDB0924C39FAB00544B53 /* AccountsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AccountsViewController.xib; path = AccountsViewController/AccountsViewController.xib; sourceTree = "<group>"; };
+		507CDB0A24C39FAB00544B53 /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountsViewController.swift; path = AccountsViewController/AccountsViewController.swift; sourceTree = "<group>"; };
+		507CDB0F24C3A20400544B53 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		507CDB1024C3A20400544B53 /* MoreViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		507CDB1724C3A58100544B53 /* AccountsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewCell.swift; sourceTree = "<group>"; };
+		507CDB1824C3A58100544B53 /* AccountsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsTableViewCell.xib; sourceTree = "<group>"; };
+		507CDB1C24C3A64400544B53 /* AccountsTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableHeaderView.swift; sourceTree = "<group>"; };
+		507CDB1E24C3A65B00544B53 /* AccountsTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsTableHeaderView.xib; sourceTree = "<group>"; };
+		507CDB2C24C3B48900544B53 /* Accounts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Accounts.json; path = ComponentsSample/Accounts.json; sourceTree = "<group>"; };
+		507CDB3724C3B8F400544B53 /* AccountsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountsViewModel.swift; path = ViewModels/Accounts/AccountsViewModel.swift; sourceTree = "<group>"; };
+		507CDB3924C3B94F00544B53 /* Accounts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Accounts.swift; path = Models/Accounts/Accounts.swift; sourceTree = "<group>"; };
+		507CDB3B24C3BC3700544B53 /* UITableView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		507CDB3D24C4E21100544B53 /* String+Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Styling.swift"; sourceTree = "<group>"; };
+		507CDB4024C4F74C00544B53 /* CurrencyConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConfigurator.swift; sourceTree = "<group>"; };
+		507CDB4224C4FFC000544B53 /* Double+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Formatter.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +115,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		505A036D24C5BC7D00CA5795 /* RoundedView */ = {
+			isa = PBXGroup;
+			children = (
+				505A036E24C5BC9900CA5795 /* RoundedView.swift */,
+			);
+			path = RoundedView;
+			sourceTree = "<group>";
+		};
 		507CDAB524C39B6300544B53 = {
 			isa = PBXGroup;
 			children = (
+				507CDB2C24C3B48900544B53 /* Accounts.json */,
 				507CDAC024C39B6300544B53 /* ComponentsSample */,
 				507CDAD724C39B6B00544B53 /* ComponentsSampleTests */,
 				507CDAE224C39B6B00544B53 /* ComponentsSampleUITests */,
@@ -99,10 +147,14 @@
 		507CDAC024C39B6300544B53 /* ComponentsSample */ = {
 			isa = PBXGroup;
 			children = (
+				507CDB3324C3B88100544B53 /* ViewModels */,
+				507CDB3124C3B85900544B53 /* Models */,
+				507CDB1324C3A51800544B53 /* Views */,
+				507CDB0224C39DEA00544B53 /* Extensions */,
+				507CDAF724C39C8A00544B53 /* Components */,
+				507CDAF124C39C0A00544B53 /* ViewControllers */,
 				507CDAC124C39B6400544B53 /* AppDelegate.swift */,
 				507CDAC324C39B6400544B53 /* SceneDelegate.swift */,
-				507CDAC524C39B6400544B53 /* ViewController.swift */,
-				507CDAC724C39B6400544B53 /* Main.storyboard */,
 				507CDACA24C39B6B00544B53 /* Assets.xcassets */,
 				507CDACC24C39B6B00544B53 /* LaunchScreen.storyboard */,
 				507CDACF24C39B6B00544B53 /* Info.plist */,
@@ -126,6 +178,156 @@
 				507CDAE524C39B6B00544B53 /* Info.plist */,
 			);
 			path = ComponentsSampleUITests;
+			sourceTree = "<group>";
+		};
+		507CDAF124C39C0A00544B53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0E24C3A1F300544B53 /* MoreViewController */,
+				507CDB0624C39ECF00544B53 /* LandingTabBarViewController */,
+				507CDAF624C39C6E00544B53 /* AccountsViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		507CDAF624C39C6E00544B53 /* AccountsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0A24C39FAB00544B53 /* AccountsViewController.swift */,
+				507CDB0924C39FAB00544B53 /* AccountsViewController.xib */,
+			);
+			name = AccountsViewController;
+			sourceTree = "<group>";
+		};
+		507CDAF724C39C8A00544B53 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				505A036D24C5BC7D00CA5795 /* RoundedView */,
+				507CDB3F24C4F73000544B53 /* CurrencyConfigurator */,
+				507CDAF924C39CC000544B53 /* AccountTitleComponent */,
+				507CDAF824C39CA400544B53 /* AmountTextComponent */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		507CDAF824C39CA400544B53 /* AmountTextComponent */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0024C39DD100544B53 /* AmountTextView.swift */,
+			);
+			path = AmountTextComponent;
+			sourceTree = "<group>";
+		};
+		507CDAF924C39CC000544B53 /* AccountTitleComponent */ = {
+			isa = PBXGroup;
+			children = (
+				507CDAFA24C39D8700544B53 /* AccountTitleView.swift */,
+				507CDAFC24C39D9B00544B53 /* AccountTitleView.xib */,
+			);
+			path = AccountTitleComponent;
+			sourceTree = "<group>";
+		};
+		507CDB0224C39DEA00544B53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0324C39DFE00544B53 /* UIView+Nib.swift */,
+				507CDB3B24C3BC3700544B53 /* UITableView+Additions.swift */,
+				507CDB3D24C4E21100544B53 /* String+Styling.swift */,
+				507CDB4224C4FFC000544B53 /* Double+Formatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		507CDB0624C39ECF00544B53 /* LandingTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0724C39F6200544B53 /* LandingTabBarViewController.swift */,
+			);
+			name = LandingTabBarViewController;
+			sourceTree = "<group>";
+		};
+		507CDB0E24C3A1F300544B53 /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB0F24C3A20400544B53 /* MoreViewController.swift */,
+				507CDB1024C3A20400544B53 /* MoreViewController.xib */,
+			);
+			path = MoreViewController;
+			sourceTree = "<group>";
+		};
+		507CDB1324C3A51800544B53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB1424C3A51F00544B53 /* Accounts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		507CDB1424C3A51F00544B53 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB1B24C3A5C700544B53 /* AccountsTableHeaderView */,
+				507CDB1624C3A53000544B53 /* AccountsTableViewCell */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		507CDB1624C3A53000544B53 /* AccountsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB1724C3A58100544B53 /* AccountsTableViewCell.swift */,
+				507CDB1824C3A58100544B53 /* AccountsTableViewCell.xib */,
+			);
+			path = AccountsTableViewCell;
+			sourceTree = "<group>";
+		};
+		507CDB1B24C3A5C700544B53 /* AccountsTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB1C24C3A64400544B53 /* AccountsTableHeaderView.swift */,
+				507CDB1E24C3A65B00544B53 /* AccountsTableHeaderView.xib */,
+			);
+			path = AccountsTableHeaderView;
+			sourceTree = "<group>";
+		};
+		507CDB3124C3B85900544B53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB3224C3B86000544B53 /* Accounts */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		507CDB3224C3B86000544B53 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB3924C3B94F00544B53 /* Accounts.swift */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		507CDB3324C3B88100544B53 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB3424C3B88E00544B53 /* Accounts */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		507CDB3424C3B88E00544B53 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB3724C3B8F400544B53 /* AccountsViewModel.swift */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		507CDB3F24C4F73000544B53 /* CurrencyConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				507CDB4024C4F74C00544B53 /* CurrencyConfigurator.swift */,
+			);
+			path = CurrencyConfigurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +416,7 @@
 			knownRegions = (
 				en,
 				Base,
+				nl,
 			);
 			mainGroup = 507CDAB524C39B6300544B53;
 			productRefGroup = 507CDABF24C39B6300544B53 /* Products */;
@@ -232,9 +435,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507CDB1F24C3A65B00544B53 /* AccountsTableHeaderView.xib in Resources */,
 				507CDACE24C39B6B00544B53 /* LaunchScreen.storyboard in Resources */,
+				507CDB1224C3A20400544B53 /* MoreViewController.xib in Resources */,
+				507CDB0B24C39FAB00544B53 /* AccountsViewController.xib in Resources */,
+				507CDB1A24C3A58100544B53 /* AccountsTableViewCell.xib in Resources */,
 				507CDACB24C39B6B00544B53 /* Assets.xcassets in Resources */,
-				507CDAC924C39B6400544B53 /* Main.storyboard in Resources */,
+				507CDAFD24C39D9B00544B53 /* AccountTitleView.xib in Resources */,
+				507CDB2D24C3B48900544B53 /* Accounts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +467,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507CDAC624C39B6400544B53 /* ViewController.swift in Sources */,
 				507CDAC224C39B6400544B53 /* AppDelegate.swift in Sources */,
+				507CDB0424C39DFE00544B53 /* UIView+Nib.swift in Sources */,
 				507CDAC424C39B6400544B53 /* SceneDelegate.swift in Sources */,
+				507CDB4124C4F74C00544B53 /* CurrencyConfigurator.swift in Sources */,
+				507CDB0824C39F6200544B53 /* LandingTabBarViewController.swift in Sources */,
+				507CDB0124C39DD100544B53 /* AmountTextView.swift in Sources */,
+				507CDB1924C3A58100544B53 /* AccountsTableViewCell.swift in Sources */,
+				507CDB1D24C3A64400544B53 /* AccountsTableHeaderView.swift in Sources */,
+				507CDB1124C3A20400544B53 /* MoreViewController.swift in Sources */,
+				507CDB3E24C4E21200544B53 /* String+Styling.swift in Sources */,
+				507CDB3C24C3BC3700544B53 /* UITableView+Additions.swift in Sources */,
+				505A036F24C5BC9900CA5795 /* RoundedView.swift in Sources */,
+				507CDB3A24C3B94F00544B53 /* Accounts.swift in Sources */,
+				507CDB0C24C39FAB00544B53 /* AccountsViewController.swift in Sources */,
+				507CDB3824C3B8F400544B53 /* AccountsViewModel.swift in Sources */,
+				507CDAFB24C39D8700544B53 /* AccountTitleView.swift in Sources */,
+				507CDB4324C4FFC000544B53 /* Double+Formatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +519,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		507CDAC724C39B6400544B53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				507CDAC824C39B6400544B53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		507CDACC24C39B6B00544B53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				507CDACD24C39B6B00544B53 /* Base */,
+				505A039424C6139B00CA5795 /* nl */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

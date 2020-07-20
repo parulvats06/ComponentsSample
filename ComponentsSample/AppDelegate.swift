@@ -15,6 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        // initialize Currency configuartor
+        
+        CurrencyConfig.setup(currencyType: CurrencyType.isoCode, minimumFractionDigits: 2)
         return true
     }
 
