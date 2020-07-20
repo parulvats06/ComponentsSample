@@ -25,8 +25,7 @@ class AccountTitleView: UIView {
         }
     }
     
-    // MARK: -  configuarble variables
-   
+    // MARK: -  configuarble properties
     open var accountTitleAppearance: AccountTitleAppearance = AccountTitleAppearance() {
         didSet {
             setUpAppearance()
@@ -66,14 +65,14 @@ class AccountTitleView: UIView {
 
 
 struct AccountTitleAppearance {
-    let accountTitleFont: UIFont
-    let accountNumberFont: UIFont
+    fileprivate let accountTitleFont: UIFont
+    fileprivate let accountNumberFont: UIFont
     
     private static let defaultATitleFontSize: CGFloat = 15.0
     private static let defaultANumberFontSize: CGFloat = 13.0
     
     
-    public init(accountTitleFont: UIFont = UIFont.systemFont(ofSize: defaultATitleFontSize, weight: .medium), accountNumberFont: UIFont = UIFont.systemFont(ofSize: defaultANumberFontSize, weight: .regular)) {
+    init(accountTitleFont: UIFont = UIFont.systemFont(ofSize: defaultATitleFontSize, weight: .medium), accountNumberFont: UIFont = UIFont.systemFont(ofSize: defaultANumberFontSize, weight: .regular)) {
         self.accountTitleFont = accountTitleFont
         self.accountNumberFont = accountNumberFont
     }

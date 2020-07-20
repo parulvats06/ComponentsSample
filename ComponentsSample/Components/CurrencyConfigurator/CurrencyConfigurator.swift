@@ -42,7 +42,7 @@ final class CurrencyConfig {
         self.minimumFractionDigits = minimumFractionDigits
     }
     
-    public static func setup(currencyType: CurrencyType, minimumFractionDigits: Int) {
+    static func setup(currencyType: CurrencyType, minimumFractionDigits: Int) {
         CurrencyConfig.shared = CurrencyConfig(currencyType: currencyType, minimumFractionDigits: minimumFractionDigits)
     }
 }

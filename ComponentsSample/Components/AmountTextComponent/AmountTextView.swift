@@ -10,11 +10,11 @@ import UIKit
 
 @IBDesignable
 class AmountTextView: UIView {
-    
+    // MARK: -  class variables
     private static let defaultAmountFontSize: CGFloat = 15.0
     private var amountLabel = UILabel(frame: CGRect.zero)
     
-    // configuarable properties
+    // MARK: -  configuarble properties
     open var font: UIFont? {
         didSet {
             if let font = self.font {
@@ -36,11 +36,6 @@ class AmountTextView: UIView {
         }
     }
     
-    override var frame: CGRect {
-      didSet {
-        updateFrames()
-      }
-    }
     // MARK: - Override Init
     
     override init(frame: CGRect) {
@@ -52,6 +47,12 @@ class AmountTextView: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupView()
+    }
+    
+    override var frame: CGRect {
+      didSet {
+        updateFrames()
+      }
     }
     
     override func updateConstraints() {
@@ -98,7 +99,7 @@ class AmountTextView: UIView {
         addSubview(amountLabel)
     }
     
-    func updateFrames() {
+    fileprivate func updateFrames() {
       amountLabel.frame = bounds
     }
     
