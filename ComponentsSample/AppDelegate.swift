@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // initialize Currency configuartor
         
-        CurrencyConfig.setup(currencyType: CurrencyType.isoCode, minimumFractionDigits: 2)
+        CurrencyConfig.setup(currencyType: CurrencyType.symbol, minimumFractionDigits: 2)
         return true
     }
 

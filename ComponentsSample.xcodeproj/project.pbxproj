@@ -10,6 +10,12 @@
 		00615F3CF11ADD7C5FC13306 /* Pods_ComponentsSample_ComponentsSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91E4B9FDFC33CAA2117DD72 /* Pods_ComponentsSample_ComponentsSampleUITests.framework */; };
 		1DDFA8D7AFC970D084DAF418 /* Pods_ComponentsSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 592234025ECEDD75BAECB5AB /* Pods_ComponentsSampleTests.framework */; };
 		363C7BCA59D79A11E00A63C1 /* Pods_ComponentsSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693FB2909120CD29E4B10BC /* Pods_ComponentsSample.framework */; };
+		504C998224C7999B00316C2B /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C998024C7999B00316C2B /* CardViewController.swift */; };
+		504C998324C7999B00316C2B /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504C998124C7999B00316C2B /* CardViewController.xib */; };
+		504C998724C799D000316C2B /* InsightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C998524C799D000316C2B /* InsightsViewController.swift */; };
+		504C998824C799D000316C2B /* InsightsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504C998624C799D000316C2B /* InsightsViewController.xib */; };
+		504C998C24C799F200316C2B /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504C998A24C799F200316C2B /* PaymentViewController.swift */; };
+		504C998D24C799F200316C2B /* PaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504C998B24C799F200316C2B /* PaymentViewController.xib */; };
 		507CDAC224C39B6400544B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAC124C39B6400544B53 /* AppDelegate.swift */; };
 		507CDAC424C39B6400544B53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507CDAC324C39B6400544B53 /* SceneDelegate.swift */; };
 		507CDACB24C39B6B00544B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507CDACA24C39B6B00544B53 /* Assets.xcassets */; };
@@ -50,6 +56,12 @@
 
 /* Begin PBXFileReference section */
 		1C341D90BFE185EDF557E47B /* Pods-ComponentsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentsSample.debug.xcconfig"; path = "Target Support Files/Pods-ComponentsSample/Pods-ComponentsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		504C998024C7999B00316C2B /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		504C998124C7999B00316C2B /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		504C998524C799D000316C2B /* InsightsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsViewController.swift; sourceTree = "<group>"; };
+		504C998624C799D000316C2B /* InsightsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsightsViewController.xib; sourceTree = "<group>"; };
+		504C998A24C799F200316C2B /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		504C998B24C799F200316C2B /* PaymentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentViewController.xib; sourceTree = "<group>"; };
 		505A039424C6139B00CA5795 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		507CDABE24C39B6300544B53 /* ComponentsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		507CDAC124C39B6400544B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +149,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		504C997F24C7997800316C2B /* CardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				504C998024C7999B00316C2B /* CardViewController.swift */,
+				504C998124C7999B00316C2B /* CardViewController.xib */,
+			);
+			path = CardViewController;
+			sourceTree = "<group>";
+		};
+		504C998424C799B400316C2B /* InsightsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				504C998524C799D000316C2B /* InsightsViewController.swift */,
+				504C998624C799D000316C2B /* InsightsViewController.xib */,
+			);
+			path = InsightsViewController;
+			sourceTree = "<group>";
+		};
+		504C998924C799D500316C2B /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				504C998A24C799F200316C2B /* PaymentViewController.swift */,
+				504C998B24C799F200316C2B /* PaymentViewController.xib */,
+			);
+			path = PaymentViewController;
+			sourceTree = "<group>";
+		};
 		507CDAB524C39B6300544B53 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +237,9 @@
 		507CDAF124C39C0A00544B53 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				504C998924C799D500316C2B /* PaymentViewController */,
+				504C998424C799B400316C2B /* InsightsViewController */,
+				504C997F24C7997800316C2B /* CardViewController */,
 				507CDB0E24C3A1F300544B53 /* MoreViewController */,
 				507CDB0624C39ECF00544B53 /* LandingTabBarViewController */,
 				507CDAF624C39C6E00544B53 /* AccountsViewController */,
@@ -416,8 +458,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504C998324C7999B00316C2B /* CardViewController.xib in Resources */,
 				507CDB1F24C3A65B00544B53 /* AccountsTableHeaderView.xib in Resources */,
 				507CDACE24C39B6B00544B53 /* LaunchScreen.storyboard in Resources */,
+				504C998D24C799F200316C2B /* PaymentViewController.xib in Resources */,
+				504C998824C799D000316C2B /* InsightsViewController.xib in Resources */,
 				507CDB1224C3A20400544B53 /* MoreViewController.xib in Resources */,
 				507CDB0B24C39FAB00544B53 /* AccountsViewController.xib in Resources */,
 				507CDB1A24C3A58100544B53 /* AccountsTableViewCell.xib in Resources */,
@@ -551,6 +596,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				507CDAC224C39B6400544B53 /* AppDelegate.swift in Sources */,
+				504C998C24C799F200316C2B /* PaymentViewController.swift in Sources */,
 				507CDAC424C39B6400544B53 /* SceneDelegate.swift in Sources */,
 				507CDB0824C39F6200544B53 /* LandingTabBarViewController.swift in Sources */,
 				507CDB1924C3A58100544B53 /* AccountsTableViewCell.swift in Sources */,
@@ -558,8 +604,10 @@
 				507CDB1124C3A20400544B53 /* MoreViewController.swift in Sources */,
 				507CDB3C24C3BC3700544B53 /* UITableView+Additions.swift in Sources */,
 				507CDB3A24C3B94F00544B53 /* Accounts.swift in Sources */,
+				504C998224C7999B00316C2B /* CardViewController.swift in Sources */,
 				507CDB0C24C39FAB00544B53 /* AccountsViewController.swift in Sources */,
 				507CDB3824C3B8F400544B53 /* AccountsViewModel.swift in Sources */,
+				504C998724C799D000316C2B /* InsightsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
