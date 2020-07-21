@@ -10,7 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AccountsViewController" customModule="ComponentsSample" customModuleProvider="target">
             <connections>
                 <outlet property="accountsTableView" destination="Upw-yr-bLv" id="Bzq-12-RVs"/>
-                <outlet property="advertisingView" destination="WFg-I3-r2P" id="Arc-6n-KTj"/>
+                <outlet property="advertisingView" destination="WFg-I3-r2P" id="36y-zr-BaS"/>
                 <outlet property="amountTextView" destination="byQ-Gx-kby" id="lGA-cG-3JV"/>
                 <outlet property="titleLabel" destination="vbW-UW-A4j" id="sQj-Zz-xBW"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -34,7 +34,7 @@
                         <constraint firstAttribute="height" constant="44" id="s1s-Rt-dR4"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFg-I3-r2P">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WFg-I3-r2P" customClass="AdvertisingView" customModule="ComponentsFramework">
                     <rect key="frame" x="0.0" y="121" width="414" height="199"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </view>

@@ -26,9 +26,7 @@ class LandingTabBarViewController: UITabBarController {
         firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
         let secondViewController = MoreViewController()
-        
-        secondViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .more, tag: 1)
-        
+        secondViewController.tabBarItem = UITabBarItem(title: "More", image: UIImage(systemName: "ellipsis"), tag: 1)
         let tabBarList = [firstViewController, secondViewController]
         
         viewControllers = tabBarList.map { UINavigationController(rootViewController: $0)}
@@ -39,12 +37,11 @@ class LandingTabBarViewController: UITabBarController {
 extension LandingTabBarViewController: UITabBarControllerDelegate {
     func tabBarController(_ tabBarController: UITabBarController,
                           shouldSelect viewController: UIViewController) -> Bool {
+        guard tabBarController.selectedIndex != 0 else {
+            return false
+        }
 
-        return false
-    }
-    
-    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
-
+        return true
     }
     
 }

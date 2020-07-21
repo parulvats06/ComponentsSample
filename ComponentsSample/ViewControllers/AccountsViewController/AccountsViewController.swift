@@ -10,25 +10,23 @@ import UIKit
 import ComponentsFramework
 
 class AccountsViewController: UIViewController {
-    //MARK: - Constants
-    static let amountFontSize: CGFloat = 20
-    static let titleFontSize: CGFloat = 12
     //MARK: - IBOutlets
     
-    @IBOutlet weak var advertisingView: UIView! {
+    @IBOutlet weak var advertisingView: AdvertisingView! {
         didSet {
-            advertisingView.backgroundColor = .lightGray
+            let font = Fonts.regular(.small)
+            advertisingView.configure(image: UIImage(named: ""), infoButtonTitle: "LEARN MORE", infoButtonFont: font, infoUrl: "www.google.com")
         }
     }
     @IBOutlet weak var amountTextView: AmountTextView! {
         didSet {
-            amountTextView.font = UIFont.systemFont(ofSize: AccountsViewController.amountFontSize, weight: .medium)
+            amountTextView.font = Fonts.medium(.xLarge)
             amountTextView.textAlignment = .center
         }
     }
     @IBOutlet weak var titleLabel: UILabel! {
         didSet {
-            titleLabel.font = UIFont.systemFont(ofSize: AccountsViewController.titleFontSize, weight: .medium)
+            titleLabel.font = Fonts.regular(.small)
             titleLabel.textColor = .gray
             titleLabel.text = "Total Balance"
         }
@@ -65,8 +63,7 @@ class AccountsViewController: UIViewController {
     }
     
     fileprivate func setSpecificNavigationProperties() {
-      //  self.navigationItem.title = ""
-        let addBarButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonClicked))
+        let addBarButton = UIBarButtonItem.init(image: UIImage(systemName: "gear"), style: .done, target: self, action: #selector(addButtonClicked))
         self.navigationItem.rightBarButtonItem = addBarButton
     }
     
