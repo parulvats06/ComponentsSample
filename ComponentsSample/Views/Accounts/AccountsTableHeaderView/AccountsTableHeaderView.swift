@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ComponentsFramework
 
 class AccountsTableHeaderView: UITableViewHeaderFooterView , NibLoadableView, ReusableView {
 

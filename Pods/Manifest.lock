@@ -1,0 +1,16 @@
+PODS:
+  - ComponentsFramework (1.0.0)
+
+DEPENDENCIES:
+  - ComponentsFramework (from `../ComponentsFramework`)
+
+EXTERNAL SOURCES:
+  ComponentsFramework:
+    :path: "../ComponentsFramework"
+
+SPEC CHECKSUMS:
+  ComponentsFramework: 82067cfa9d54fadb84faf4350c7040da51ea99d7
+
+PODFILE CHECKSUM: a642dbe0550115c6a9addb7ca6687418db5639ee
+
+COCOAPODS: 1.8.4

@@ -7,12 +7,12 @@
 //
 
 import UIKit
+import ComponentsFramework
 
 class AccountsTableViewCell: UITableViewCell, NibLoadableView, ReusableView {
 
     @IBOutlet private weak var accountTitleView: AccountTitleView!
     @IBOutlet private weak var accountTypeImage: UIImageView!
-    
     @IBOutlet weak var amountTextView: AmountTextView!
     //MARK: - Variables
     var account: Account? {
