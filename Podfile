@@ -6,7 +6,7 @@ target 'ComponentsSample' do
   use_frameworks!
 
   # Pods for ComponentsSample
-pod 'ComponentsFramework', :path => '../ComponentsFramework'
+  pod 'ComponentsFramework', :path => '../ComponentsFramework'
   target 'ComponentsSampleTests' do
     inherit! :search_paths
     # Pods for testing
